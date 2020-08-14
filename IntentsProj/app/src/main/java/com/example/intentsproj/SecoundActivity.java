@@ -76,7 +76,7 @@ public class SecoundActivity extends AppCompatActivity {
                 num1 = Integer.parseInt(Number1.getText().toString());
                 num2 = Integer.parseInt(Number2.getText().toString());
 
-                float result= num1 / num2;
+                float result= (float)num1 / num2;
                 txt.setText(num1 +" / "+ num2 + " = "+String.valueOf(result));
 
             }
